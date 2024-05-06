@@ -13,7 +13,7 @@ class Config(object):
 
     class Redshift:
         ssh_password = os.environ.get(env='REDSHIFT_SSH_PASSWORD_ADC')
-        db_pwd = os.environ.get(env='REDSHIFT_DATABASE_PASSWORD_ADC')
+        db_pwd = os.environ.get(env='REDSHIFT_DATABASE_PASSWORD_JENKINS')
 
 
 logging.basicConfig(
