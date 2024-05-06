@@ -22,7 +22,6 @@ logging.basicConfig(
     datefmt='%Y-%m-%d %H:%M:%S')
 logger = logging.getLogger(__name__)
 
-
 ssh_user = "wallixusr@local@PPFGH1GTW03:SSH:ADECOS01"
 ssh_host = "wallix-bastion-eu-pr.dktapp.cloud"
 db_user = "jenkins_belgium"
